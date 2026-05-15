@@ -13,6 +13,8 @@
     "https://github.com/Muxcore-Media/jellyfin",
     "https://github.com/Muxcore-Media/notifier-discord",
     "https://github.com/Muxcore-Media/scheduler-cron",
-    "https://github.com/Muxcore-Media/workflow-engine"
+    "https://github.com/Muxcore-Media/workflow-engine",
+    "https://github.com/Muxcore-Media/database-postgres",
+    "https://github.com/Muxcore-Media/cache-redis"
   ]
 }
