@@ -1,27 +1,112 @@
 {
-  "name": "MuxCore Official Marketplace",
-  "description": "Official modules maintained by the MuxCore team. All modules in this catalog are owned by the Muxcore-Media GitHub organization.",
+  "name": "MuxCore Official Spool",
+  "description": "Official modules maintained by the MuxCore team. All modules are owned by the Muxcore-Media GitHub organization.",
   "modules": [
-    "https://github.com/Muxcore-Media/admin-ui",
-    "https://github.com/Muxcore-Media/api-rest",
-    "https://github.com/Muxcore-Media/auth-local",
-    "https://github.com/Muxcore-Media/downloader-qbittorrent",
-    "https://github.com/Muxcore-Media/eventbus-nats",
-    "https://github.com/Muxcore-Media/indexer-jackett",
-    "https://github.com/Muxcore-Media/media-library",
-    "https://github.com/Muxcore-Media/media-manager-movies",
-    "https://github.com/Muxcore-Media/jellyfin",
-    "https://github.com/Muxcore-Media/notifier-discord",
-    "https://github.com/Muxcore-Media/scheduler-cron",
-    "https://github.com/Muxcore-Media/workflow-engine",
-    "https://github.com/Muxcore-Media/database-postgres",
-    "https://github.com/Muxcore-Media/cache-redis",
-    "https://github.com/Muxcore-Media/ratelimit-tokenbucket",
-    "https://github.com/Muxcore-Media/cache-memory",
-    "https://github.com/Muxcore-Media/health-monitor",
-    "https://github.com/Muxcore-Media/audit-logger",
-    "https://github.com/Muxcore-Media/prometheus-metrics",
-    "https://github.com/Muxcore-Media/storage-tiering",
-    "https://github.com/Muxcore-Media/worker-pool"
-  ]
+    {
+      "repo": "https://github.com/Muxcore-Media/admin-ui",
+      "name": "admin-ui",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/api-rest",
+      "name": "api-rest",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/auth-local",
+      "name": "auth-local",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/downloader-qbittorrent",
+      "name": "downloader-qbittorrent",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/eventbus-nats",
+      "name": "eventbus-nats",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/indexer-jackett",
+      "name": "indexer-jackett",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/media-library",
+      "name": "media-library",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/media-manager-movies",
+      "name": "media-manager-movies",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/jellyfin",
+      "name": "jellyfin",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/notifier-discord",
+      "name": "notifier-discord",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/scheduler-cron",
+      "name": "scheduler-cron",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/workflow-engine",
+      "name": "workflow-engine",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/database-postgres",
+      "name": "database-postgres",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/cache-redis",
+      "name": "cache-redis",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/ratelimit-tokenbucket",
+      "name": "ratelimit-tokenbucket",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/cache-memory",
+      "name": "cache-memory",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/health-monitor",
+      "name": "health-monitor",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/audit-logger",
+      "name": "audit-logger",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/prometheus-metrics",
+      "name": "prometheus-metrics",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/storage-tiering",
+      "name": "storage-tiering",
+      "version": "v1.0.0"
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/worker-pool",
+      "name": "worker-pool",
+      "version": "v1.0.0"
+    }
+  ],
+  "version": "1.0.0"
 }
