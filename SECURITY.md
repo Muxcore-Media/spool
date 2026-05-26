@@ -62,6 +62,39 @@ When reporting, frame issues against these boundaries. A bug in business logic
 that stays within this module's own capabilities is a regular bug, not a
 security vulnerability.
 
+
+## Third-Party Spool Security
+
+### WARNING
+
+Using a third-party spool (`--spool <url>`) means you are trusting an external source to define which modules run on your system. Third-party spools can:
+
+- List modules that contain malicious code
+- Point to forks with backdoors or data exfiltration
+- Omit security-critical modules (e.g., auth, rate limiting)
+- Specify outdated versions with known vulnerabilities
+- Change their module list at any time without notice
+
+**Modules run with the same privileges as the core process.** A malicious module can access your filesystem, network, environment variables, and any data MuxCore manages.
+
+### Before Using a Third-Party Spool
+
+1. Audit the spool's module list and versions
+2. Verify each module repo is what it claims to be
+3. Check that security modules (auth, rate limiting) are included and not replaced with stubs
+4. Pin to a specific commit/tag, not a floating branch
+5. Run MuxCore in a sandboxed environment first
+
+### Official Spool
+
+The official MuxCore spool is at:
+
+```
+https://github.com/Muxcore-Media/spool
+```
+
+The MuxCore project makes no guarantees about modules sourced from third-party spools. Use at your own risk.
+
 ## Safe Harbor
 
 We will not pursue legal action against security researchers who:

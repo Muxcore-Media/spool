@@ -1,0 +1,32 @@
+{
+  "name": "minimal",
+  "description": "Bare essentials: admin UI, REST API, local auth, memory cache, and health monitoring. No scheduler, no workflow engine, no rate limiting.",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "repo": "https://github.com/Muxcore-Media/admin-ui",
+      "version": "v1.0.0",
+      "required": true
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/api-rest",
+      "version": "v1.0.0",
+      "required": true
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/auth-local",
+      "version": "v1.0.0",
+      "required": true
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/cache-memory",
+      "version": "v1.0.0",
+      "required": true
+    },
+    {
+      "repo": "https://github.com/Muxcore-Media/health-monitor",
+      "version": "v1.0.0",
+      "required": true
+    }
+  ]
+}
