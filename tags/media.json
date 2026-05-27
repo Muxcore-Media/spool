@@ -1,0 +1,12 @@
+{
+  "name": "media",
+  "description": "Media management pipeline: downloaders, indexers, media processing, and content organization.",
+  "version": "1.0.0",
+  "modules": [
+    {
+      "repo": "https://github.com/Muxcore-Media/downloader-qbittorrent",
+      "version": "v1.0.0",
+      "required": false
+    }
+  ]
+}
